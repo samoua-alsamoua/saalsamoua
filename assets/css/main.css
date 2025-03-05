@@ -1350,3 +1350,38 @@ text-align: justify;
   font-size: 16px;
   margin-bottom: 5px;
 }
+
+
+/*--------------------------------------------------------------
+# Publication Section
+--------------------------------------------------------------*/
+
+.publication-item {
+  margin-bottom: 20px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+.publication-item h3 a {
+  color: var(--accent-color); /* Blue color for links */
+  text-decoration: none; /* Remove underline by default */
+  transition: color 0.3s ease;
+}
+
+.publication-item h3 a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
